@@ -3,8 +3,8 @@ from time import sleep
 from credentials import *
 from config import QUERY, FOLLOW, LIKE, SLEEP_TIME 
 
-auth = tweepy.OAuthHandler('TZOCY856j0YL8XPlyzK325UOT', 'zD7be4s8eFdNfAKnIMG1K3j5pgXRhcDqvZdPbSW3urEpIA0lE9') 
-auth.set_access_token('1180841409676550144-iSeJKD8RE90cZWtzXxTa6RCtMhZben', 'Zrbcgis07qwQZLSWg4tscawrUnsVWY5IOsV5ld3y48Gsd') 
+auth = tweepy.OAuthHandler('', '') 
+auth.set_access_token('', '') 
 api = tweepy.API(auth) 
 
 print("Twitter bot which retweets, like tweets and follow users") 
